@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Tilt+Neon&display=swap');
+*,
+
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: rgb(15, 14, 14);
+  font-family: "Tilt Neon", sans-serif;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+list-style: none;
+}
+
+input,
+button{
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+.app{
+  background-image: url(https://c8.alamy.com/comp/J88G6J/collection-sky-landscape-for-game-background-J88G6J.jpg);
+  background-size:cover ;
+  background-position: center;
+  background-repeat:no-repeat ;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+button{
+  border: none;
+  padding: 5px 10px;
+  border-radius :5px ;
+  transition: transform.5s;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: transform.5s;
+}
